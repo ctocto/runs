@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+const { program } = require('commander');
+
+const server = require('../index');
+
+program
+  .version('0.0.1')
+  .option('-p, --port', '9876 as port', 9876)
+  .parse(process.argv);
+
+const options = program.opts();
+
+server({
+  port: options.port || 9876,
+});

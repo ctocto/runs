@@ -1,0 +1,22 @@
+{
+  "name": "runs",
+  "version": "0.0.1",
+  "description": "",
+  "bin": {
+    "runs": "./bin/runs"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/runs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "serve-index": "^1.9.1"
+  }
+}
